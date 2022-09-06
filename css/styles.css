@@ -666,6 +666,69 @@ body {
   fill: var(--other-color);
 }
 
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-left: 93px;
+}
+
+.subscribe-title {
+  margin-bottom: 20px;
+
+  font-weight: var(--primry-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--other-color);
+}
+
+.subscribe-tap {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe-input {
+  width: 358px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-right: 12px;
+
+  background-color: var(--primary-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  color: var(--other-color);
+  font-family: var(--main-font-family);
+  font-weight: var(--primry-font-weight);
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.send-icon {
+  margin-left: 10px;
+  fill: var(--other-color);
+}
+
 /* ===========FOOTER=========== */
 
 /* ============PORFOLIO========
