@@ -994,6 +994,18 @@ body {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  transition: background var(--transition-time-cubic);
+}
+
+.modal-button-send:hover,
+.modal-button-send:focus {
+  background: #188ce8;
+}
+
+.modal-form-checkbox-label {
+  display: flex;
+  align-items: center;
 }
 
 .modal-form-checkbox-icon {
@@ -1002,9 +1014,18 @@ body {
   fill: #fff;
   border: 2px solid #000000;
   border-radius: 3px;
+  margin-right: 8px;
 }
 
-.fff:checked + .modal-form-checkbox-icon {
+.modal-form-checkbox-input {
+  appearance: none;
+}
+
+.modal-form-checkbox-input:checked + .modal-form-checkbox-icon {
   fill: var(--accent-color);
   border: none;
+}
+
+.checkbox-policy {
+  color: var(--accent-color);
 }
